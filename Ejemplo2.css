@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FF0000;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #D5ba98;
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegación */
+nav {
+    background-color: #005f99;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+main h2 {
+    color: #007acc;
+    margin-bottom: 1rem;
+}
+
+main p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Pie de página */
+footer {
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
